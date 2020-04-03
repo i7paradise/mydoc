@@ -14,7 +14,7 @@ public class Ta_User {
     @NonNull
     @Column(unique = true)
     private String email;
-    private String hashedPassword;
+    private String password;
     private String firstName;
     private String lastName;
     private LocalDateTime lastConnection;
@@ -35,12 +35,12 @@ public class Ta_User {
         this.email = email;
     }
 
-    public String getHashedPassword() {
-        return hashedPassword;
+    public String getPassword() {
+        return password;
     }
 
-    public void setHashedPassword(String hashedPassword) {
-        this.hashedPassword = hashedPassword;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getFirstName() {

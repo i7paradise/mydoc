@@ -19,7 +19,6 @@
 	<modules>
 		<module>persistence</module>
 		<module>core</module>
-		<module>core-impl</module>
 		<module>web</module>
 	</modules>
 

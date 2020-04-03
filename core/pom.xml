@@ -14,6 +14,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.mydoc.rdv</groupId>
+            <artifactId>persistence</artifactId>
+            <version>${com.mydoc.rdv.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
