@@ -79,4 +79,14 @@ public class User {
             return new User(idUser, email, firstName, lastName, lastConnection);
         }
     }
+
+	public boolean emailNotValid() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean nameNotValid() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
